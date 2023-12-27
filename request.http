@@ -1,0 +1,31 @@
+###
+POST http://localhost:9000/api/phrases HTTP/1.1
+Content-Type: application/json
+
+{
+    "phrase": "Eres muy especial para mi",
+    "author": "Brillitos ✨"
+}
+
+###
+GET http://localhost:9000/api/phrases HTTP/1.1
+
+
+###
+GET http://localhost:9000/api/phrases/65830cbe5ed8a131e652b984 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/phrases/65830cbe5ed8a131e652b984 HTTP/1.1
+Content-Type: application/json
+
+{
+    "phrase": "Si pero no",
+    "author": "Bridged"
+}
+
+
+###
+DELETE  http://localhost:9000/api/phrases/65830c805ed8a131e652b980 HTTP/1.1
+
+
